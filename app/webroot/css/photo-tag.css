@@ -1,0 +1,105 @@
+/* Resizable
+----------------------------------*/
+.ui-resizable { position: relative;}
+.ui-resizable-handle { position: absolute;font-size: 0.1px;z-index: 99999; display: block;}
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-n { cursor: n-resize; height: 7px; width: 100%; top: -5px; left: 0px; }
+.ui-resizable-s { cursor: s-resize; height: 7px; width: 100%; bottom: -5px; left: 0px; }
+.ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0px; height: 100%; }
+.ui-resizable-w { cursor: w-resize; width: 7px; left: -5px; top: 0px; height: 100%; }
+.ui-resizable-se { cursor: se-resize; width: 12px; height: 12px; right: 1px; bottom: 1px; }
+.ui-resizable-sw { cursor: sw-resize; width: 9px; height: 9px; left: -5px; bottom: -5px; }
+.ui-resizable-nw { cursor: nw-resize; width: 9px; height: 9px; left: -5px; top: -5px; }
+.ui-resizable-ne { cursor: ne-resize; width: 9px; height: 9px; right: -5px; top: -5px;}
+
+.photoTag-taglist{ list-style:none;}
+.photoTag-taglist li{margin-left:10px;}
+#tempNewTagForm{
+	background-color: #eee; 
+	padding: 5px 15px;
+	overflow:hidden;
+	position: absolute;
+	border:3px solid #C80404;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+}
+.photoTag-tag{
+	border: 3px #C80404 solid;
+	opacity: 0.8;
+}
+.photoTag-tag .photoTag-delete {
+	background:url(../img/x2.png) no-repeat; 
+	width:25px; 
+	height:29px; 
+	display:inline; 
+	z-index:3200; 
+	position:absolute; 
+	top:-17px; 
+	right:-18px; 
+	cursor:pointer;
+	opacity: 0.8;
+}
+#tempNewTagForm input{
+	float: left;
+	display: inline;
+	margin-bottom: 10px;
+}
+#tempNewTagForm label{
+	width: auto;
+	float: left;
+	color: #333;
+}
+#tempNewTagForm .inputSubmit,
+#tempNewTagForm .inputCancel
+{
+	font-size: 13px;
+	padding: 3px;
+	margin-right: 5px;
+	color: #ffffff;
+	background-color: #6dba5d;
+	border: 1px #6dba5d solid;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+}
+#tempNewTagForm .inputCancel
+{
+	background-color: #d75353;
+	border: 1px #d75353 solid;
+}
+.innerTag{
+	float: left;
+	background-color: #C80404;
+	padding: 3px;
+	height: 14px;
+	position: relative;
+	top: -23px;
+	left: -3px;
+	font-size: 10px;
+	color: #ffffff;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+}
+.add-new-tags{
+	float:right;
+	margin:0 0 10px 0;
+	font-size:12px;
+	color:#C80404;
+	font-weight:bold;
+}
+a.add-new-tags:hover{
+	text-decoration:underline;
+}

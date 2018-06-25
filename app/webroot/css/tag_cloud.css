@@ -1,0 +1,71 @@
+/* Start Tag Cloud CSS */
+/* Note for CSS designer:Make sure the font-size is on increase when you tweak it */
+div.tag-cloud a {
+    float:left;
+    margin:2px;
+    min-height:19px;
+    padding:2px 9px;
+}
+a.tag1 {
+	font-size:12px;
+	line-height:23px;
+}
+a.tag2,a.tag3 {
+	font-size:18px;
+	font-weight:200;
+	line-height:23px;
+}
+a.tag4,a.tag5,a.tag6 {
+	font-size:20px;
+	font-weight:300;
+	line-height:23px;
+}
+a.tag7,.tag8,a.tag9 {
+	font-size:30px;
+	font-weight:300;
+	line-height:33px;
+}
+a.tag10,a.tag11,a.tag12 {
+	font-size:50px;
+	font-weight:300;
+	line-height:54px;
+}
+a.tag13,a.tag14,a.tag15 {
+	font-size:51px;
+	font-weight:400;
+	line-height:55px;
+}
+a.tag16,a.tag17,a.tag18 {
+	font-size:52px;
+	font-weight:400;
+	line-height:56px;
+}
+a.tag19,a.tag20,a.tag21 {
+	font-size:53px;
+	font-weight:500;
+	line-height:58px;
+}
+a.tag22,a.tag23,a.tag24 {
+	font-size:54px;
+	font-weight:500;
+	line-height:58px;
+}
+a.tag25,a.tag26,a.tag27 {
+	font-size:55px;
+	font-weight:900;
+	line-height:59px;
+}
+a.tag28,a.tag29,a.tag30 {
+	font-size:56px;
+	font-weight: 900;
+	line-height:60px;
+}
+/*tag cloud page (tags.php) */
+#selClouds a {
+	padding:0px 5px 0px 5px;
+	background-color:#f0f0f0;
+}
+#selClouds .more-link a {
+	background-color:#BCDBF9;
+}
+/*..*/

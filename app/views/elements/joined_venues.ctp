@@ -1,0 +1,1 @@
+<?php echo $this->requestAction(array('controller'=>'venues','action'=>'index','joined'=>$user['User']['username']), array('return')); ?>

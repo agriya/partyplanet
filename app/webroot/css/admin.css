@@ -1,0 +1,1420 @@
+/* $Id:admin.css 187 2011-12-08 23:39:20Z josephine_065at09 $ */
+/* common style is begin */
+div.admin-content {
+	font-size:100%;
+	color:#545454;
+	line-height:123%;
+	font-family:tahoma;
+}
+div#admin-header {
+	height:141px;
+	position:relative;
+	z-index:10;
+}
+div.header-shadow {
+	background:url("../img/header-shadow.png") no-repeat scroll center top transparent;
+	bottom:-60px;
+	height:30px;
+	left:0;
+	position:absolute;
+	width:95%;
+	z-index:2;
+}
+#admin-footer {
+	background:none repeat scroll 0 0 #EEEEEE;
+	color:#888888;
+	font-size:11px;
+	margin:40px 0 0;
+	padding:6px 0;
+	text-align:center;
+}
+div.admin-content-block {
+	background:url(../img/admin-header.png) repeat-x left top;
+	width:100%;
+}
+p.admin-user {
+	font-size:15px;
+	margin:0 0 20px;
+}
+h1 {
+	margin:3px 0 0px 0px;
+	font-size:91%;
+}
+h1 a {
+	text-indent:1px;
+	background:none;
+	height:auto;
+	color:#fefefe;
+}
+h1 a:hover {
+	color:#B1B1B1;
+	text-decoration:none;
+}
+h1 a span {
+	font-weight:normal;
+	font-size:81%;
+	margin:0% 0% 0% 0.8%;
+}
+h2 {
+	color:#0A0A0A;
+	font-size:144%;
+	padding:7px 10px 7px 0;
+}
+div.dashboard-side2 h2 {
+	color:#000;
+	font-size:130%;
+	padding:8px 10px 5px;
+}
+h3 {
+	color:#0A0A0A;
+	font-size:112%;
+	font-weight:bold;
+	padding:1% 0 0.8%;
+}
+a {
+    color:#3EA8D0;
+	text-decoration:none;
+}
+a:hover {
+    color:#000;
+}
+h5 {
+	font-size:95%;
+	padding:0px 0 0 0px;
+}
+h5 a {
+	font-size:11px;
+}
+div#admin-footer a {
+	color:#888888;
+}
+div.page-title-info h2 a:hover,div#admin-footer a:hover {
+	text-decoration:underline;
+}
+div.admin-content div#main {
+	font-size:75%;
+	margin:60px 0 0;
+	min-height:465px;
+}
+div.admin-content p.paging-count {
+	color:#9F9F9F;
+	padding:10px 10px 10px 0;
+}
+div#users-admin_index div.admin-content p.paging-count {
+	padding:10px 0px;
+}
+div.dashboard-side2 {
+	font-size:0.9em;
+}
+div.profile-image {
+	margin:0 0 0 174px;
+}
+div.page-info {
+    background: url("../img/admin-sprite.png") no-repeat scroll 10px 4px #F3F3F3;
+	border:1px dashed #ccc;
+	color:#333333;
+	margin:0px;
+	padding:10px 10px 10px 38px;
+}
+div.admin-content form.normal {
+	width:100%;
+	margin:0px;
+	padding: 0px;
+}
+/* round corner style is begin */
+div.admin-center-block {
+	border-bottom:1px solid #CCCCCC;
+	padding:10px;
+	background:#EEEEEE;
+	margin:0px;
+}
+div.recent-user {
+	border-bottom:none;
+}
+div.admin-side1-tc {
+    background: url("../img/admin-sprite.png") repeat-x scroll left -6183px #E2E2E2;
+	border-top:1px solid #CCCCCC;
+}
+div.dashboard-side1 div.admin-side1-tc{
+	border:1px solid #CCCCCC;
+	margin:10px 0 0 0;
+}
+div.dashboard-side2 div.admin-side1-tc {
+	height: 34px;
+}
+/* top menu style is begin */
+ul.admin-menu {
+	float:right;
+	margin:3px 0px 0px 0px;
+}
+ul.admin-menu>li {
+	background:url("../img/admin-menuli-split.png") no-repeat scroll left 4px transparent;
+	float:left;
+	margin:1px 5px 0 4px;
+	padding:0 0 0 13px;
+}
+ul.admin-menu>li:first-child {
+	background:none;
+}
+ul.admin-menu li a {
+	color:#FFFFFF;
+	font-size:72%;
+	text-decoration:none;
+}
+ul.admin-menu li.view-site a,ul.admin-menu li.logout a,ul.admin-menu li:hover a,ul.admin-menu li.active a {
+	color:#ddd;
+}
+ul.admin-menu li.view-site a:hover,ul.admin-menu li.logout a:hover {
+	color:#afafaf;
+}
+ul.admin-menu li.view-site {
+	margin:1px 18px 0 11px;
+}
+div.admin-main-block {
+	border:1px solid #ccc;
+	background:#eeeeee;
+	padding:10px;
+}
+div.admin-main-block h2 {
+	background:url("../img/admin-sprite.png") repeat-x scroll left -6183px #E2E2E2;
+	padding:7px 10px;
+}
+div#users-admin_stats div.admin-main-block {
+	border:none;
+	background:none;
+}
+/* admin menu style is begin */
+ul.admin-links {
+	font-size:90%;
+	margin:30px 0 0;
+}
+ul.admin-links>li {
+	float:left;
+	position:relative;
+    width: 9%;
+	font-size:81%;
+	z-index:10000;
+	margin:0 0 0 2%;
+}
+ul.admin-links>li.subscriptions {
+	width:9.5%;
+}
+ul.admin-links li span {
+	cursor:pointer;
+	display:block;
+	position:relative;
+	z-index:10000;
+	height:101px;
+}
+ul.admin-links li span.sub-link-info {
+	height:auto;
+	color:#4c4c4c;
+	font-size:10px;
+	float:right;
+}
+ul.admin-links li span.sub-link-info a {
+	background:url("../img/admin-sprite.png") no-repeat scroll -4px -5381px transparent;
+}
+ul.admin-links li div.admin-sub-block ul li.sub-link span.sub-link-info a {
+	padding:0 0 0 21px;
+}
+span.menu-center {
+	color:#000;
+	font-size:85%;
+	font-weight:bold;
+	font-family:tahoma;
+}
+span.home {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -6376px;
+}
+span.patner{
+    background: url("../img/admin-sprite.png") no-repeat scroll center -7356px;
+}
+span.users {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -6508px;
+}
+span.payments {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -9875px;
+}
+span.sightings {
+	 background: url("../img/admin-sprite.png") no-repeat scroll center -7217px;
+}
+span.items {
+	background:url("../img/admin-menu-sprite.png") no-repeat center -411px;
+}
+span.settings {
+	background:url("../img/admin-menu-sprite.png") no-repeat scroll center -840px;
+}
+span.settings1 {
+	background:url("../img/admin-menu-sprite.png") no-repeat center -1112px;
+}
+span.places {
+	 background: url("../img/admin-sprite.png") no-repeat scroll center -6944px;
+}
+span.guides {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -6236px;
+}
+span.masters {
+	background:url("../img/admin-menu-sprite.png") no-repeat center -558px;
+}
+span.forum {
+	background:url("../img/admin-menu-sprite.png") no-repeat center -415px;
+}
+span.forum {
+	background:url("../img/admin-menu-sprite.png") no-repeat center -415px;
+}
+span.settings {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -7471px transparent;
+}
+span.master2{
+    background: url("../img/admin-sprite.png") no-repeat scroll center -8231px transparent;
+}
+span.tools {
+	background:url("../img/admin-menu-sprite.png") no-repeat center -1235px;
+}
+div.page-title-info h2 {
+	padding:8px 0 6px 34px;
+	color:#000;
+	font-size:15px;
+}
+h2.sitestats-title {
+	background:url("../img/admin-sprite.png") no-repeat scroll 6px -629px transparent;
+	color:#FFFFFF;
+	font-size:15px;
+}
+h2.users-title {
+	background: url("../img/admin-sprite.png") no-repeat scroll 5px -2221px;
+}
+h2.payments-title {
+	background: url("../img/admin-sprite.png") no-repeat scroll 12px -9960px;
+}
+h2.venues-title{
+	background: url("../img/admin-sprite.png") no-repeat scroll 5px -388px;
+}
+h2.events-title{
+	background: url("../img/admin-sprite.png") no-repeat scroll 5px -311px;
+}
+h2.modules-title{
+	background: url("../img/admin-sprite.png") no-repeat scroll 5px -66px;
+}
+h2.partners-title{
+	background: url("../img/admin-sprite.png") no-repeat scroll 10px -1597px;
+}
+h2.devs_title,h2.diagnostics-title{
+	background: url("../img/admin-sprite.png") no-repeat scroll 5px -8136px;
+}
+h2.photos-title{
+	background: url("../img/admin-sprite.png") no-repeat scroll 5px -1598px;
+}
+h2.articles-title{
+	background: url("../img/admin-sprite.png") no-repeat scroll 5px -246px;
+}
+h2.videos-title{
+	background: url("../img/admin-sprite.png") no-repeat scroll 5px -1677px;
+}
+h2.forums-title{
+    background: url("../img/admin-sprite.png") no-repeat scroll 7px -66px transparent;
+}
+h2.master-title{
+    background: url("../img/admin-sprite.png") no-repeat scroll 10px -1744px transparent;
+}
+h2.settings-title{
+	background: url("../img/admin-sprite.png") no-repeat scroll 7px -3107px transparent;
+}
+div.page-title-info h2.google_ads-title {
+	background:url("../img/admin-sprite.png") no-repeat scroll 9px -357px transparent;
+	padding:8px 0 6px 55px;
+}
+ul.admin-links li.no-bor div.admin-sub-block {
+	left:0px;
+	top:101px;
+}
+ul.admin-links li span.amenu-left {
+    background: url("../img/admin-sprite.png") no-repeat scroll left -5920px;
+}
+ul.admin-links li.active span.amenu-left {
+    background: url("../img/admin-sprite.png") no-repeat scroll left -7871px;
+}
+ul.admin-links > li.active span.amenu-right {
+    background: url("../img/admin-sprite.png") no-repeat scroll right -7969px;
+	}
+ul.admin-links>li span.amenu-right {
+	margin:0 0 0 11px;
+	padding:0 12px 0 0;
+    background: url("../img/admin-sprite.png") no-repeat right -6019px;
+}
+ul.admin-links>li.admin-active span.amenu-left {
+	background:url(../img/admin-sprite.png) no-repeat 0 -72px;
+}
+ul.admin-links>li.admin-active span.amenu-right {
+	background:url(../img/admin-sprite.png) no-repeat right -218px;
+}
+ul.admin-links>li span.menu-center {
+	text-align:center;
+	padding:77px 0px 0px 0px;
+	font-size:1em;
+	height:22px;
+}
+ul.admin-links>li:hover span.amenu-left,ul.admin-links>li.admin-active:hover span.amenu-left {
+	background:url(../img/admin-sprite.png) no-repeat 0 -1881px;
+}
+ul.admin-links>li:hover span.amenu-right,ul.admin-links>li.admin-active:hover span.amenu-right {
+	background:url(../img/admin-sprite.png) no-repeat right -2025px;
+}
+
+ul.admin-links>li:hover span.menu-center em,ul.admin-links>li.admin-active span.menu-center em {
+	color:#000;
+}
+ul.admin-links li div.admin-sub-block {
+	position:absolute;
+	width:287%;
+	z-index:10000;
+	display:none;
+	width:230px;
+	background:url("../img/bg-menu.png") repeat left top;
+	
+}
+ul.admin-links li div.admin-sub-block2 {
+	width:380px;
+}
+ul.admin-links li div.admin-sub-block2 div.admin-sub-rblock {
+	background:url("../img/menu-right-repeat.png") repeat-y scroll 360px top transparent;
+}
+ul.admin-links li.masters-block div.admin-sub-block {
+	width:384px;
+}
+ul.admin-links li.setting-masters-block div.admin-sub-block {
+	width:628px;
+}
+ul.admin-links li.setting-masters-block li.admin-sub-links-right {
+	margin:0 0 0 15px;
+	width:168px;
+}
+ul.admin-links li.setting-masters-block li.admin-sub-links-left {
+	border-right:1px solid #DDDDDD;
+	margin:6px 0px 0px 0px;
+	width:190px;
+	padding:0px 5px 0px 0px;
+}
+ul.admin-sub-links {
+	padding:10px;
+}
+ul.admin-sub-links li.admin-sub-links-left {
+	float:left;
+	width:165px;
+	margin:0px 18px 0px 0px;
+	border-right:1px solid #ddd;
+}
+ul.admin-sub-links li.admin-sub-links-right {
+	float:left;
+	width:160px;
+}
+ul.admin-links li.masters div.admin-sub-block {
+    right:-2px;
+    top: 101px;
+}
+ul.admin-links li.masters div.admin-sub-cblock{
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 0 3px 0 13px;
+    padding: 0 7px 0 0;
+}
+ul.admin-links li.masters div.admin-bot-lblock1{
+     background: url("../img/admin-sprite.png") no-repeat scroll left -8483px transparent;
+	 }
+ul.admin-links li.masters div.admin-sub-lblock {
+	background:url(../img/menu-left-repeat.png) repeat-y 4px top;
+}
+ul.admin-links li div.admin-sub-rblock {
+	background:url(../img/menu-right-repeat.png) repeat-y 210px top;
+}
+ul.admin-links li.masters div.admin-bot-lblock{
+     background: url("../img/admin-sprite.png") no-repeat scroll left -8395px transparent;
+}
+ul.admin-links li.masters div.admin-bot-rblock {
+    background: url("../img/admin-sprite.png") no-repeat scroll right -8352px transparent;
+}
+ul.admin-links li div.admin-sub-cblock {
+	background:none repeat scroll 0 0 #FFFFFF;
+	margin:0 18px 0 2px;
+}
+ul.admin-links li div.admin-bot-lblock {
+	background:url("../img/admin-sprite.png") no-repeat scroll left -2527px transparent;
+}
+ul.admin-links li div.admin-bot-cblock{
+    margin: 0 12px 0 19px;
+}
+ul.admin-links li div.admin-bot-rblock {
+	background:url("../img/admin-sprite.png") no-repeat scroll right -2570px transparent;
+}
+ul.admin-links li div.admin-bot-cblock {
+	background:url("../img/admin-sprite.png") repeat-x scroll left -2611px transparent;
+	height:20px;
+	margin:0 20px 0 12px;
+}
+ul.admin-links li div.admin-bot-rblock1 {
+	background:url("../img/admin-sprite.png") no-repeat scroll right -2658px transparent;
+}
+ul.admin-links li div.admin-bot-cblock1 {
+	background:none repeat scroll 0 0 #FFFFFF;
+	height:10px;
+	margin:0 20px 0 2px;
+}
+ul.admin-links li.masters div.admin-bot-cblock1{
+    margin:0 3px 0 19px;
+}
+ul.admin-links li.masters div.admin-bot-cblock{
+    margin: 0 12px 0 19px;
+}
+ul.admin-links li.masters-block div.admin-sub-rblock{
+    background: url("../img/menu-right-repeat.png") repeat-y scroll 415px top transparent;
+}
+ul.admin-links li:hover div.admin-sub-block {
+	display:block;
+}
+ul.admin-links li div.admin-sub-block ul {
+	margin:0px;
+	padding:0px 0 10px 5px;
+}
+ul.admin-links li div.admin-sub-block ul li.merchant-info a,ul.admin-links li div.admin-sub-block ul li.merchant-info span {
+	display:inline;
+}
+ul.admin-links li div.admin-sub-block ul ul {
+	border-top:none;
+	padding:0px;
+}
+ul.admin-links li div.admin-sub-block ul h4 {
+	color:#000;
+	font-size:12px;
+	font-weight:700;
+	padding:4px 0 0 20px;
+}
+ul.admin-links li div.admin-sub-block ul li a {
+	color:#000000;
+	display:block;
+	padding:5px 0 5px 35px;
+	text-decoration:none;
+	background: url("../img/admin-sprite.png") no-repeat scroll 20px -7081px;
+}
+ul.admin-links li div.admin-sub-block ul li.sub-link a {
+	float:left;
+}
+ul.admin-links li div.admin-sub-block ul li a:hover {
+	color:#FEFEFE;
+	padding:5px 0 5px 35px;
+	background: url("../img/admin-sprite.png") no-repeat scroll 20px -7105px #000000;
+	  }
+ul.admin-links li div.admin-sub-block ul li.customize-subscription a {
+	background:url("../img/admin-sprite.png") no-repeat scroll -4px -1445px transparent;
+}
+ul.admin-links li div.admin-sub-block ul li.setting-overview1 a {
+	float:right;
+	font-weight:bold;
+    background: url("../img/admin-sprite.png") no-repeat scroll 9px -3108px transparent;
+	padding:5px 5px 5px 35px;
+	border:1px solid transparent;
+}
+ul.admin-links li div.admin-sub-block ul li.setting-overview1:hover a{
+	background: url("../img/admin-sprite.png") no-repeat scroll 9px -3108px #000;
+	border:1px solid #ccc;
+	color:#fff;
+	padding:5px 5px 5px 35px;
+}
+ul.admin-links li div.admin-sub-block ul li.customize-subscription a:hover {
+	background:#E5F6F9 url("../img/admin-sprite.png") no-repeat scroll -4px -1445px;
+}
+ul.admin-links li div.admin-sub-block ul li.setting-overview a {
+    background: url("../img/admin-sprite.png") no-repeat 12px -3108px transparent;
+	padding:5px 5px 5px 35px;
+}
+ul.admin-links li div.admin-sub-block ul li.setting-overview a:hover{
+    background: url("../img/admin-sprite.png") no-repeat 12px -3108px #000000;
+	padding:5px 5px 5px 35px;
+}
+.admin-sub-links-left,.admin-sub-links-right {
+	float:left;
+	width: 174px;
+}
+/* settings links style is begin */
+ul.setting-links {
+	margin:1% 0 0 2%;
+}
+ul.setting-links li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #DDDDDD;
+    margin: 0 1% 5px 0;
+    min-height:81px;
+    padding: 1% 0;
+}
+ul.setting-links li:hover {
+    background:#FEFEFE;
+}
+ul.setting-links li div.setting-details-info {
+	min-height:75px;
+	padding:0 0 10px 83px;
+}
+ul.setting-links li div.debug-error {
+	background:url("../img/admin-sprite.png") no-repeat scroll 15px -2966px;
+}
+ul.setting-links li div.search-logs {
+	background:url("../img/admin-sprite.png") no-repeat scroll 19px -2707px;
+}
+ul.setting-links li div.search-keywords {
+	background:url("../img/admin-sprite.png") no-repeat scroll 15px -2836px;
+}
+ul.setting-links li div.setting-category-1 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 20px -3221px;
+}
+ul.setting-links li div.setting-category-2 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 0px -3363px;
+}
+ul.setting-links li div.setting-category-3 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 6px -3539px;
+}
+ul.setting-links li div.setting-category-4 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 14px -3699px;
+}
+ul.setting-links li div.setting-category-5 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 6px -3840px;
+}
+ul.setting-links li div.setting-category-6 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 10px -3967px;
+}
+ul.setting-links li div.setting-category-8 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 6px -8950px;
+}
+ul.setting-links li div.setting-category-9 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 13px -4395px;
+}
+ul.setting-links li div.setting-category-10 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 16px -4262px;
+}
+ul.setting-links li div.setting-category-11 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 6px -8572px;
+}
+ul.setting-links li div.setting-category-12 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 6px -8700px;
+}
+ul.setting-links li div.setting-category-13 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 11px -8813px;
+}
+ul.setting-links li div.setting-category-14 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 6px -4868px;
+}
+ul.setting-links li div.setting-category-15 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 9px -4107px;
+}
+ul.setting-links li div.setting-category-16 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 7px -9206px;
+}
+ul.setting-links li div.setting-category-7 {
+	background: url("../img/admin-sprite.png") no-repeat scroll 14px -4863px;
+}
+ul.setting-links li div.setting-category-17 {
+	background:url("../img/admin-sprite.png") no-repeat scroll 13px -9802px;
+}
+ul.setting-links li div.setting-category-59{
+  background: url("../img/admin-sprite.png") no-repeat -28px -9882px;
+}
+ul.setting-links li div.setting-category-60{
+  background: url("../img/admin-sprite.png") no-repeat -25px -6948px;
+}
+/* http://www.visakopu.net/misc/table-border-css/ */
+/** table-list */
+table.list,table.list td,table.list th {
+	border:1px solid #E0DFDF;
+}
+table.list {
+	border-width:5px;
+	border-spacing:0;
+	border-collapse:collapse;
+	margin:10px auto;
+	width:100%;
+}
+table.list td,table.list th {
+	margin:0;
+	padding:7px 7px;
+	border-width:1px;
+	background-color:#fff;
+	vertical-align:middle;
+	text-align:center;
+	color:#333333;
+	line-height:18px;
+	text-align:left;
+}
+table.list th {
+	color:#545454;
+	font-weight:bold;
+	padding:12px 10px;
+	background:url(../img/table-bg.png) repeat-x left top #fff;
+}
+table.list th,table.list th a {
+	color:#545454;
+}
+table.list th a:hover {
+	color:#000;
+}
+table.list tr.altrow td {
+	background-color:#FCFCFC;
+}
+table.list tr.errorrow td {
+	background-color:#F25E5E;
+	color:#FFFFFF;
+}
+table.list tr.errorrow td a {
+	color:#FFFFFF;
+}
+table.list tr:hover td {
+	background:#f4f2f2;
+}
+table.list td.sub-title {
+	background:#fff;
+}
+table.list td.sub-title:hover+tr td {
+	background:green;
+	color:#fff;
+}
+.actions-block .actions a {
+	text-align:left;
+}
+table.list td.dc,table.list th.dc {
+	text-align:left;
+}
+table.list td.dr,table.list th.dr {
+	text-align:right;
+}
+table.list td.actions,table.list th.actions {
+	width: 60px;
+}
+/* form & setting images page style begins */
+form.normal div.input label{
+    color:#666;
+}
+form.normal div.datetime select:hover, form.normal div.time select:hover, form.normal div.date select:hover,form.normal div.datetime select, form.normal div.time select, form.normal div.date select,form.normal div.select select,form.normal div.text input,form.normal div.textarea textarea,form.normal div.password input {
+	background:#fff;
+	border:1px solid #ccc;
+	color:#000;
+}
+form.normal div.time select,form.normal div.date select {
+  	background:#fff;
+	border:1px solid #ccc;
+}
+form.normal div.date select,form.normal div.select select:hover,form.normal div.text input:hover,form.normal div.textarea textarea:hover,form.normal div.password input:hover {
+	background:#fff;
+	border:1px solid #AAA9AD;
+}
+
+form.normal div.outer-image-settings div.input {
+	width:310px;
+	float:left;
+}
+form.normal div.outer-image-settings div.input label {
+	position:absolute;
+}
+form.normal div.outer-image-settings div.input input {
+	margin:0px 0px 0px 200px;
+}
+form.normal table.list div.textarea textarea,form.normal div.outer-image-settings div.input input.image-settings-height {
+	margin:0px 0px 0px 0px;
+}
+form.normal div.outer-image-settings div.image-separator {
+	width:10px;
+}
+/* admin dashboard style is begin */
+div.admin-dashboard-links p {
+	background:url("../img/admin-sprite.png") no-repeat scroll 0 -4572px transparent;
+	padding:2px 0 2px 12px;
+	margin:0px 0px 1px 0px;
+}
+div.admin-dashboard-links {
+	color:#8F8F8F;
+}
+div.admin-dashboard-links p small {
+	color:#000;
+}
+h4.version-info {
+	font-weight:bold;
+	padding:0px;
+}
+span.mceEditor {
+	display:block;
+	margin: 35px 0 0;
+}
+/* action tabel-row style is begin */
+table.list tr.inactive-record td {
+    background:#FFFBF9;
+    color:#666;
+}
+table.list tr.inactive-record td a,table.list tr.inactive-record td a:hover ,table.list tr.inactive-record td span.email-comfirmed{
+   color:#666;
+}
+table.list tr.active-row td {
+	background:#e0e0e0 url(../img/admin-sprite.png) repeat-x left -7666px;
+	color:#fff;
+	border:none;
+	position:relative;
+	padding:4px 4px 10px 4px;
+}
+table.list tr.expand-row td {
+	cursor:pointer;
+}
+table.list tr.active-row,table.list tr.active-row td {
+	border:none;
+}
+table.list tr.active-row td a {
+	color:#fff;
+}
+table.list tr.active-row td a:hover {
+	color:#fff;
+}
+table.list tr:hover td.action-block,table.list td.action-block {
+    background: none repeat scroll 0 0 #F3F3F3;
+    border-bottom: 2px solid #DDDDDD;
+    border-top: 2px solid #DDDDDD;
+    font-size: 102%;
+    text-align: left;
+}
+
+div.action-info-block {
+	background:transparent url(../img/action-separator.png) repeat-y 18.4% top;
+	font-size:1em;
+}
+div.action-right,div.action-right4,div.action-left-block,div.action-right-block {
+	float:left;
+}
+div.action-left-block ul li {
+	margin:2px 0;
+}
+div.action-left-block {
+	margin:0 27px 0 18px;
+	width:16%;
+}
+div.action-right-block {
+	width:55%;
+}
+div.action-right {
+	margin:0 20px 0 0;
+	width:41%;
+}
+div.action-right4 {
+	width:20%;
+}
+div.action-info-block h3 {
+    border-bottom: 1px solid #CCCCCC;
+    color: #000000;
+    font-size: 11px;
+    margin: 5px 0 15px;
+    padding: 5px 0;
+}
+div.action-right-block dl dt,div.action-right-block dl dd {
+	min-height:25px;
+	float:left;
+}
+div.action-right-block dl dt,div.action-right-block dl dd{
+	font-size:11px;
+}
+div.action-right-block dl dt {
+	width:60%;
+	font-weight:bold;
+}
+div.action-right-block dl dd {
+	width:33%;
+}
+div.action-right1 dl dt {
+	width:30%;
+}
+div.action-right1 dl dd {
+	width:70%;
+}
+div.action-right4 dl dt {
+	font-weight:normal;
+	width:48%;
+}
+div.action-right-block div.city-action dl dt {
+	width:8%;
+	color:#BD2031;
+}
+div.action-right-block div.city-action dl dd {
+	width:92%
+}
+div.info-details {
+	background:url("../img/icon-info-details.png") no-repeat scroll 10px center #fff;
+}
+div.venues-img-block{
+    width:166px;
+}/* dashbrad round corner style is begin */
+div.chart-half-section {
+	float:left;
+	margin:10px 0.5% 4px 0.6%;
+	width:48.8%;
+}
+div.admin-dashboard-chart,div.admin-dashboard-edu-chart,div.admin-dashboard-coupon-usage-chart {
+	float:left;
+	height:375px;
+	width:100%;
+}
+h2.chart-dashboard-title span {
+	cursor:pointer;
+	display:block;
+	height:36px;
+	left:0;
+	margin:1px 10px;
+	position:absolute;
+	top:0;
+	width:98%;
+	text-indent:-3000em;
+}
+h2.chart-dashboard-title span.up-arrow {
+	background:url("../img/admin-sprite.png") no-repeat scroll 112% -5335px transparent;
+}
+h2.chart-dashboard-title span.down-arrow {
+	background:url("../img/admin-sprite.png") no-repeat scroll 112% -5285px transparent;
+}
+div.dashboard-tl {
+	background:url("../img/admin-sprite.png") no-repeat scroll 0 -5814px;
+}
+div.dashboard-tr {
+	background:url("../img/admin-sprite.png") no-repeat scroll right -5823px;
+}
+div.dashboard-tc {
+	background:url("../img/admin-sprite.png") repeat-x scroll left -5768px;
+	height:9px;
+	margin:0px 11px;
+}
+div.dashboard-cl {
+	background:transparent url(../img/dashboard-cl.png) repeat-y left top;
+}
+div.dashboard-cr {
+	background:transparent url(../img/dashboard-cr.png) repeat-y right top;
+}
+div.dashboard-cc {
+	background:#fff;
+	margin:0px 6px;
+}
+div.dashboard-bl {
+	background:url("../img/admin-sprite.png") no-repeat scroll left -5848px;
+}
+div.dashboard-br {
+	background:url("../img/admin-sprite.png") no-repeat scroll right -5874px;
+}
+div.dashboard-bc {
+	background:url("../img/admin-sprite.png") repeat-x scroll left -5787px;
+	height:17px;
+	margin:0 89px;
+}
+div.admin-content form.language-form {
+	float:right;
+}
+h2.chart-dashboard-title {
+	background:url("../img/admin-sprite.png") no-repeat scroll 10px -123px;
+	color:#000;
+	padding:9px 0 7px 40px;
+	position:relative;
+	font-size:15px;
+}
+.language-form label {
+	padding:0 10px 0 0;
+}
+.form-block h3 {
+	border-bottom:1px solid #ddd;
+	color:#454545;
+	font-size:1.3em;
+	font-weight:bold;
+	margin:0 10px 9px;
+	padding:6px 0;
+}
+
+/* admin_user index page style is begin */
+div.user-info-block {
+	margin:0px 0px 5px 0px;
+}
+p.user-img-right span.affiliate {
+	background:#9bc937;
+	color:#fff;
+}
+p.user-img-right span.active-city {
+	background:#1E9B0A;
+	color:#fff;
+}
+p.user-img-right span.admin {
+	background:#fff830;
+	color:#4c4c4c;
+	padding:2px;
+}
+div.user-status-block span {
+	float:left;
+	display:block;
+	width:16px;
+	height:16px;
+	text-indent:-3000em;
+	padding:0px;
+}
+div.user-status-block span.flags {
+	margin:5px 3px;
+	width:19px;
+	height:11px;
+}
+div.user-status-block span.open-id {
+	background:url("../img/admin-sprite.png") no-repeat scroll -7px -5167px transparent;
+}
+div.user-status-block span.gmail {
+	background:url("../img/admin-sprite.png") no-repeat scroll 0 -1034px transparent;
+}
+div.user-status-block span.yahoo {
+	background:url("../img/admin-sprite.png") no-repeat scroll 0 -1486px transparent;
+}
+div.user-status-block span.facebook {
+	background:url("../img/admin-sprite.png") no-repeat scroll -4px -5061px transparent;
+}
+div.user-status-block span.twitter {
+	background:url("../img/admin-sprite.png") no-repeat scroll 0 -1420px transparent;
+}
+div.user-status-block span.foursquare {
+	background:url("../img/admin-sprite.png") no-repeat scroll -4px -4980px transparent;
+}
+div.user-status-block span.email {
+	text-indent:1px;
+	height:auto;
+	width:auto;
+	padding:1px 0px 3px 21px;
+}
+div.user-status-block span.email-not-comfirmed {
+	background:url("../img/admin-sprite.png") no-repeat scroll -1px -5100px transparent;
+    color:#f88ec7;
+}
+div.user-status-block span.email-comfirmed {
+	color:#000;
+	background:url("../img/admin-sprite.png") no-repeat scroll -5px -5246px transparent;
+}
+/* Js block style is begin */
+#js-expand-table div.arrow {
+	background:url("../img/hide-arrow.png") no-repeat scroll left 0 transparent;
+	float:left;
+	height:6px;
+	margin:15px 0 0 0px;
+	width:14px;
+}
+#js-expand-table div.checkbox{
+    float:left;
+    margin:5px 0px;
+}
+#js-expand-table tr.active-row div.arrow {
+	background:url("../img/show-arrow.png") no-repeat scroll left 0;
+}
+.crumb {
+	padding:0 0 0 10px;
+}
+div.test-mode-left,div.test-mode-right {
+	float:left;
+	width:410px;
+}
+div.test-mode-left label,div.test-mode-right label {
+	color:#B62F09;
+	font-size:15px;
+	font-weight:bold;
+	margin-left:148px;
+}
+div.test-mode-content span.label-content {
+	display:block;
+	position:static;
+	text-align:left;
+}
+form.payment div.submit,form.payment div.cancel-block {
+	float:left;
+}
+div.language-form-block form.normal div.select select {
+    height: auto;
+    margin: 0 0 0 50px;
+    padding: 3px;
+    width: 80px;
+}
+div.language-form-block form.normal div.input label {
+	text-align:left;
+	width:auto;
+}
+div.language-form-block form.normal div.input {
+	padding:0px;
+	margin:0px;
+}
+div.city-block form.normal div.input label {
+	display:block;
+	text-align:left;
+	padding:0;
+	width:auto;
+}
+div.city-block {
+    background: url("../img/admin-sprite.png") no-repeat scroll 114px -630px transparent;
+	padding:0 23px 0 0;
+}
+div.city-block form.normal div.select select {
+	margin:0 0 0 30px;
+}
+div.city-lang-block {
+    margin: 0 0 12px 5px;
+    width: 272px;
+}
+form.normal div.multiple-select select{
+    height:auto;
+}
+/* search form style is begin*/
+form.search-form div.select,form.search-form div.text {
+	float:left;
+	margin:5px 5px 2px 0;
+	padding:0 5px;
+	width:215px;
+}
+form.search-form div.select {
+	width:160px;
+}
+form.search-form div.input label {
+    color: #666666;
+    font-size: 12px;
+    padding: 4px 0 0;
+    text-align: right;
+    width:61px;
+}
+form.search-form div.select label {
+	width:31px;
+	margin:3px 0px 0px 0px;
+}
+form.search-form div.user-select label {
+	width:67px;
+}
+form.search-form div.text input,form.search-form div.select select {
+	margin:0 5px 0 68px;
+	padding:7px 2px;
+	width:146px;
+}
+form.search-form div.select select {
+    font-size: 12px;
+    height: 29px;
+    margin: 1px 0 0 46px;
+    padding: 6px 0;
+    width: 111px;
+}
+*+html form.search-form div.select select{
+    margin:6px 0 0 46px
+}
+form.search-form div.submit {
+    margin:1px 0 1px 0px;
+	float:left;
+}
+ul.menu-tabs {
+    background: url("../img/news-menu.png") repeat-x scroll left bottom #FFFFFF;
+    margin: 10px 0 0;
+    padding: 5px;
+}
+ul.menu-tabs li {
+    float: left;
+    margin: 0 25px 0 0;
+    padding: 0 0 0 6px;
+}
+dl.contact-list{
+	float:left;
+	margin:0 40px 0 0;
+}
+dl.contact-list dt{
+	font-weight:bold;
+    margin: 0 0 5px;
+}
+form.search-form1 div.text{
+    width:254px;
+}
+form.search-form1 div.text label{
+    width:90px;
+    padding:6px 0px 0px 0px;
+}
+form.search-form1 div.text input{
+    margin:0 5px 0 101px;
+}
+/*Debug & Error Log style*/
+h3.error-log-title {
+	background:#F5F5F5;
+	border-bottom: 1px solid #DDDDDD;
+	border-top: 1px solid #ECECEC;
+	margin: 0 0 10px;
+	padding: 10px 0 5px 10px;
+}
+div.clear-log h4 {
+	float:left;
+	padding: 6px 0 0;
+}
+div.clear-log a {
+	background: url("../img/admin-sprite.png") no-repeat  0 -9680px;
+	float: right;
+	margin:6px 0 5px;
+	padding: 0 0 0 20px;
+}
+div.clear-log textarea {
+	width:100%;
+}
+/* email template style is begin*/
+input#EmailTemplateIsHtml0{
+    margin:0 0 0 165px;
+}
+span.email-template{
+    color: #666666;
+    margin: 3px 0 0 100px;
+    position: absolute;
+}
+a.cssilize{
+    float:left;
+    margin:3px 0 0 4px;
+}
+p.powered {
+   margin:2px 0 8px 3px;
+}
+div.footer-inner {
+    font-size: 12px;
+    padding: 15px 0;
+}
+div.footer-inner p{
+    color:#000;
+}
+div.admin-content p.paging-counter{
+    margin:11px 0 10px 5px;
+}
+address{
+    font-style:normal;
+}
+/* event index page style is begin */
+div.truncate-info,div.truncate-info div,div.truncate-info p{
+    display:inline;
+}
+div.status-block{
+  float:left;
+}
+div.status-block span{
+    width:12px;
+    height:12px;
+    display:block;
+    text-indent:-3000em;
+    margin:3px 3px;
+    float:left;
+}
+div.event-info p.progress-bar{
+    background: url("../img/progress-bg.png") no-repeat scroll left top transparent;
+    border: medium none;
+    height: 10px;
+    margin: 0 auto;
+    position: relative;
+    width: 97px;
+   
+}
+div.event-info .progress-value {
+    width:140px;
+    margin:0px auto;
+}
+div.event-info span.progress-status {
+    background: url("../img/progress-value.png") no-repeat scroll left top transparent;
+    float:left;
+    height:10px;
+    
+}
+.progress-value span {
+    color: #000000;
+    float: left;
+    font-size:12px;
+}
+table.list tr.active-row .progress-value span{
+    color:#fff;
+}
+div.event-info .progress-value span {
+    float: left;
+}
+div.event-info .progress-value span.progress-to {
+    float: right;
+}
+table.list tr th.date-time-block,table.list tr td.date-time-block{
+    width:135px;
+    text-align:center;
+}
+div.new-album{
+    margin:0px 0px 0px 176px;
+}
+form.normal div.text input.disabled:focus, form.normal div.text input.disabled:hover, form.normal div.text input.disabled {
+    background:#C4C4C4;
+    border: 1px solid #C4C4C4;
+    color:#F9F9F9;
+}
+ul.affiliates-links li{
+    display:inline;
+    margin:0px 0px 0px 5px;
+}
+/* affliates page style is begin */
+a.affiliate-requests,a.affiliate-cash-withdrawals,a.settings-links{
+    padding:3px 0px 3px 20px;
+}
+a.affiliate-requests{
+   background:url("../img/admin-sprite.png") no-repeat left -9365px;
+}
+a.affiliate-cash-withdrawals{
+   background:url("../img/admin-sprite.png") no-repeat left -9437px;
+}
+a.settings-links{
+   background:url("../img/admin-sprite.png") no-repeat left -9504px;
+}
+/* translation add page style is begin */
+div.translation-index-block span.info {
+    margin:0px;
+    line-height:22px;
+}
+div.translation-left-block {
+    margin: 0 20px 0 57px;
+    width: 316px;
+}
+div.translation-right-block {
+    width: 344px;
+}
+form.normal table.list div.text input,form.normal table.list div.select select{
+    margin:0px;
+    width:200px;
+}
+div.credentials-right{
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+    width:204px;
+    border:1px solid #ddd;
+    background:url("../img/credenitals.png") repeat-x left top;
+    font-weight:bold;
+}
+div.credentials-right a{
+    padding:0px 0px 4px 20px;
+}
+div.credentials-right a.facebook-link{
+    background:url("../img/admin-sprite.png") no-repeat scroll -4px -5061px transparent;
+}
+div.credentials-right a.twitter-link{
+    background:url("../img/admin-sprite.png") no-repeat scroll 0 -1420px transparent;
+}
+div.ip-info span{
+    font-weight:bold;
+}
+.ui-widget-header{
+    background:#848383;
+}
+.ui-tabs .ui-tabs-panel {
+    border:1px solid #CCCCCC;
+    padding:10px;
+    background:#fff;
+}
+.ui-tabs .ui-tabs-nav li{
+    margin:0 3px -1px;
+}
+ul.transfer-list li{
+    margin:0px 5px;
+}
+dl.party-planner dt,dl.party-planner dd{
+    float:left;
+    width:220px;
+    min-height:23px;
+    padding:3px;
+}
+dl.party-planner dt{
+    font-weight:bold;
+}
+dl.party-planner dd{
+    width:82%;
+}
+h2.settings-title span.setting-info{
+    font-weight:normal;
+    float:right;
+}
+/* http://www.positioniseverything.net/easyclearing.html */
+.clearfix:after {
+	content:'.';
+	display:block;
+	visibility:hidden;
+	height:0;
+}
+.clearfix {
+	display:inline-block;
+	display:block;
+}
+* html .clearfix {
+	height:1%;
+}
+*+html .clearfix {
+	display: inline-block;
+}
+
+div.test-mode-heading {
+    margin-bottom: 0;
+    margin-left: 45px;
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+div.test-mode-content span.label-content {
+    display: block;
+    font-weight: bold;
+    left: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 18px;
+    position: absolute;
+}
+.test-mode-content {
+    position: relative;
+}
+table.list tr:hover td.site-amount, table.list tr td.site-amount {
+	background: #DFFFD0;
+}
+dl.list dt, dl.list dd { 
+min-height: 20px;
+width: 20%;
+}
+dl.list {
+	font-size:11px;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+dl.list dt {
+	float:left;
+	font-weight:bold;
+	margin:0;
+	padding:0.5em;
+	width:20%;
+}
+dl.list dd {
+	float:left;
+	margin:0;
+	padding:0.5em;
+	width: 60%;
+}
+dl.adaptive-transaction-list {
+	width : 65.1em
+}
+dl.price-list dt, dl.price-list dd{
+	float:left;
+	padding:10px 5px;
+	width:125px;
+	font-size: 20px;
+}
+dl.available-price-list dt {
+    width: 200px;
+}
+dl.available-price-list {
+    border: 1px dashed #CCCCCC;
+}
+dl.price-list dt{
+	text-align:right;
+}
+dl.price-list dd.net-price{
+	color:#E5AA06;
+}
+dl.refundable-list{
+	border-top:1px solid #eee;
+}
+dl.refundable-list dd{
+	color: #1891C8;
+    font-size: 12px;
+    font-weight: bold;
+}
+ul.setting-links li div.payment-transaction-log { 
+ background:url("../img/admin-sprite.png") 15px -4399px no-repeat;
+}
+ul.setting-links li div.mass-payment { 
+ background:url("../img/admin-sprite.png") 15px -4276px no-repeat;
+}

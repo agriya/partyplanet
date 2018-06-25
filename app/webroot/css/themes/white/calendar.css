@@ -1,0 +1,115 @@
+table.calendar {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0;
+    width: 305px;
+}
+table.calendar th {
+	background-color:#eeeeee;
+	text-transform:none;
+	color:#FFF;
+	padding:4px;
+	text-align:center;
+	border:none;
+}
+table.calendar th.cell-prev {
+	text-align:left;
+}
+table.calendar th.cell-next {
+	text-align:right;
+}
+table.calendar th.cell-header {
+	width:70px;
+	border-bottom:none;
+	color:#555;
+}
+table.calendar td.cell-today div,table.calendar tr td div.active {
+	color:#666;
+	background:#9A9A9A;
+}
+table.calendar tr td div.active a{
+    color:#fff;
+}
+/* today in the current month */
+table.calendar td.cell-today div a {
+	color:#fff;
+}
+table.calendar td.cell-week div {
+	color:#fff;
+	background:#9A9A9A;
+}
+/* today in the current month */
+table.calendar td.highlight div {
+	background-color:#9A9A9A;
+}
+table.calendar td.highlight div a{
+    color:#fff;
+}
+table.calendar td div.cell-number {
+	text-align:center;
+	font-size:14px;
+	color:#444444;
+	display:block;
+}
+table.calendar td div {
+	display:block;
+	font-size:14px;
+	text-align:center;
+	padding:5px;
+}
+table.calendar thead th {
+	border:none;
+}
+table.calendar td div a {
+	color:#555;
+	padding:2px 4px;
+	display:block;
+}
+table.calendar td {
+	border:1px solid #ccc;
+}
+table.calendar td div:hover {
+	background-color:#9A9A9A;
+}
+table.calendar td div:hover a {
+	color: #fff;
+}
+/* calendr style is begin */
+table.calendar th {
+	background:transparent url(../img/theme/white/bg-calender-heading.png) repeat-x scroll left top;
+	padding:6px;
+}
+table.calendar thead th.cell-prev,table.calendar thead th.cell-next {
+	border:none;
+}
+table.calendar thead th.cell-header {
+	background:none;
+	padding:5px;
+}
+table.calendar thead th.cell-prev {
+	border-right:none;
+}
+table.calendar thead th.cell-prev a,table.calendar thead th.cell-next a {
+
+	display:block;
+	width:16px;
+	height:16px;
+	text-indent:-3000em;
+	margin:0px 0px 0px 15px;
+}
+table.calendar thead th.cell-prev a{
+	background:url("../img/theme/white/user-sprite.png") no-repeat scroll left -3921px;
+}
+table.calendar thead th.cell-prev a:hover {
+	background:url("../img/theme/white/user-sprite.png") no-repeat scroll left -3937px;
+}
+table.calendar thead th.cell-next a {
+	background:url("../img/theme/white/user-sprite.png") no-repeat scroll right -3955px;
+	margin:0px 15px 0px 0px;
+	text-align:left;
+}
+table.calendar thead th.cell-next a:hover {
+	background:url("../img/theme/white/user-sprite.png") no-repeat scroll right -3971px;
+}

@@ -1,0 +1,1 @@
+<?php echo $this->requestAction(array('controller' => 'charts', 'action' => 'admin_chart_events', 'admin' => true), array('return'));?>

@@ -1,0 +1,1 @@
+<?php echo $this->requestAction(array('controller'=>'user_comments','action'=>'index','user_id'=>$user['User']['id'],'username' => $username), array('return')); ?>

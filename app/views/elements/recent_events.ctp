@@ -1,0 +1,1 @@
+<?php echo $this->requestAction(array('controller' => 'events', 'action' => 'index', 'type' => 'recent', 'limit' => 5)); ?>

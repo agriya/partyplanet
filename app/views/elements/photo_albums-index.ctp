@@ -1,0 +1,1 @@
+<?php echo $this->requestAction(array('controller' => 'photo_albums', 'action' => 'index', 'type' => 'list', 'username' => $username), array('return')); ?>

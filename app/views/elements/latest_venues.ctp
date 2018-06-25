@@ -1,0 +1,1 @@
+<?php echo $this->requestAction('admin/venues/index/limit:5/sort:created/direction:desc/dashboard:1', array('return')); ?>

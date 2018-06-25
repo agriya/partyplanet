@@ -1,0 +1,1 @@
+<?php echo $this->requestAction(array('controller'=>'events','action'=>'index','user'=>$user['User']['username']), array('return')); ?>

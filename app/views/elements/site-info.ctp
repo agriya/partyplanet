@@ -1,0 +1,1 @@
+<?php echo $this->requestAction(array('controller'=>'pages','action'=>'view','site-info'), array('return')); ?>
